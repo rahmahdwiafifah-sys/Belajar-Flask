@@ -1,0 +1,24 @@
+{
+    "workbench.colorTheme": "Lunar Pink",
+    "editor.guides.bracketPairs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "vscode-pets.theme": "winter",
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.petColor": "red",
+    "vscode-pets.throwBallWithMouse": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "explorer.confirmDragAndDrop": false,
+    "vscode-pets.petType": "panda",
+
+    "python.condaPath": "C:\\ProgramData\\anaconda3\\Scripts\\conda.exe",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda"
+}
