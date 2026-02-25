@@ -21,14 +21,16 @@ def index():
 def nama():
     return "halaman nama"
 
-@app.route('/nama/<string:nama>')
+# digunakan untuk membuat routing dinamis berdasarkan input user.
+@app.route('/nama/<string:nama>') 
 def getnama(nama):
     return "nama anda adalah {}".format(nama)
 
 @app.route('/mahasiswa')
 def halmahasiswa():
-    kelas = '4KA14'
-    return render_template('mhs.html',kelas=kelas)
+    kelas = '4KA14' #digunakan untuk membuat variabel di backend Python
+    return render_template('mhs.html',kelas=kelas) #digunakan untuk mengirim data dari Python ke HTML.
+
 
 @app.route('/bootstrap')
 def bs():

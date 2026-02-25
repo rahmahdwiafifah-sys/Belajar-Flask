@@ -7,13 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    {% extends "layout.html" %}
+    {% extends "layout.html" %} <!--Digunakan untuk menggunakan template layout utama.-->
 
     {% block title %}Dosen Page{% endblock %}
     
     
     {% block content %}
-    {% if session.logged_in %}
+    {% if session.logged_in %} <!--Digunakan untuk mengecek apakah user sudah login.-->
         <h3 class="one">Welcome Dosen</h3>
         <a href="/dosen/tambah" class="btn btn-primary" role="button">Tambah dosen</a>
         <a href="{{ url_for('logout') }}" class="btn btn-info" role="button">Logout</a>

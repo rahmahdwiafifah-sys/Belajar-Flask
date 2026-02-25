@@ -1,6 +1,7 @@
+# Impor library Flask agar kita bisa membuat aplikasi web menggunakan Python
 from flask import Flask, render_template
 
-
+# digunakan untuk membuat objek aplikasi Flask.
 app = Flask(__name__)
 
 # ROUTING
@@ -43,4 +44,5 @@ def haldosen():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port='3000')
+    app.run(debug=True, port='3000') # digunakan untuk menjalankan server Flask.
+
